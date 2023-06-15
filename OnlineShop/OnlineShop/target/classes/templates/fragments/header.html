@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Haberdashery Online Shop</title>
+  <link rel="stylesheet", type="text/css" href="/css/style.css">
+</head>
+<body>
+
+<header th:fragment="ShopHeader">
+  <span class="title"> Haberdashery Online Shop </span>
+
+  <a th:href="@{/order/cart}" class="cart-ico">
+    <div>
+      <span> Cart: </span>
+      <span th:text="${@cart.counter}"> </span>
+      <span> items. Total: </span>
+      <span th:text="${@cart.sum}"></span>
+      <span> eurosponges </span>
+    </div>
+
+  </a>
+
+</header>

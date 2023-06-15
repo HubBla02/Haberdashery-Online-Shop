@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Haberdashery Online Shop</title>
+    <link rel="stylesheet", type="text/css" href="/css/style.css">
+</head>
+<body>
+
+ <header th:replace="fragments/header :: ShopHeader"></header>
+
+  <h2 style="color: saddlebrown; text-align: center;"> Welcome to my haberdashery online shop! </h2>
+
+  <div class="main-content">
+
+    <div class="item" th:each="item: ${items}">
+
+      <p class="item-name", th:text="${item.name}"></p>
+
+      <img th:src="@{${item.url}}">
+
+      <div>
+        <span> Price:</span>
+        <span th:text="${item.price}">  </span>
+        <span> eurosponges </span>
+      </div>
+
+      <a th:href="@{'/add/' + ${item.id}}" class="add-btn" style="text-align: center;">Add to cart</a>
+
+
+    </div>
+
+
+</body>
+</html>
