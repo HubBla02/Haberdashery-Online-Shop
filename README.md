@@ -3,7 +3,7 @@ It has such features as:
 
 a) Client panel:
 
-1. Main menu  (localhost:8080) - all of the items are there (every has a name, a price and a picture). You can add items to the cart (check point no.2) by pressing "add to cart" button. On the top right corner you will see the amount of items that have been added to the cart and the full price of the contents
+1. Main menu  (localhost:8080) - all of the items are there (every has a name, a price and a picture). You can add items to the cart (check point no. a2) by pressing "add to cart" button. On the top right corner you will see the amount of items that have been added to the cart and the full price of the contents
 
 2. Cart - you will see all the items you chose (and the amount of every single product) and the price of the items (just like in a regular online shop). Here you can press + to add another item of each type, - to remove, or press X to remove ALL of the items of that one kind.
 
