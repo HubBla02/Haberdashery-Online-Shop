@@ -23,7 +23,7 @@ TECHNOLOGIES I HAVE USED:
 Backend: Java 17, Spring Boot 3.1.0 (with Maven)
 Frontend: HTML + CSS
 Database: H2 (which you can simply check on /h2-console, login and password are in the .yml)
-Also: JPA
+Also: JPA, Thymeleaf
 
 Little disclaimer: Every picture I have used was free - I have taken them from istock.
 
