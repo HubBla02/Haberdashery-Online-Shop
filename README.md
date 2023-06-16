@@ -17,7 +17,7 @@ You need to go to /admin to use this option.
 2. Displaying all orders - the view to the OrderRepository, where you see all the orders done.
 You need to go to /admin/showorders to use this option.
 
-Pssst... I have also created a simple /error page, you can simply check there or simply go to /anythingbesideslinksabove to check it out!
+Pssst... I have also created a simple /error page, you can check at /error there or simply go to /anythingbesideslinksabove to check it out!
 
 TECHNOLOGIES I HAVE USED:
 Backend: Java 17, Spring Boot 3.1.0 (with Maven)
