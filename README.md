@@ -1,5 +1,3 @@
-
-
 Hi! This is my 2nd project (which I have written myself). It's a simple shop online, when you can get some haberdashery items (default types: a handbag, a belt and a wallet) for "eurosponges".
 It has such features as:
 
@@ -26,64 +24,5 @@ Backend: Java 17, Spring Boot 3.1.0 (with Maven)
 Frontend: HTML + CSS
 Database: H2 (which you can simply check on /h2-console, login and password are in the .yml)
 Also: JPA
-## API Reference
 
-#### Get all items
-
-```http
-  GET /api/items
-```
-
-| Parameter | Type     | Description                |
-| :-------- | :------- | :------------------------- |
-| `api_key` | `string` | **Required**. Your API key |
-
-#### Get item
-
-```http
-  GET /api/items/${id}
-```
-
-| Parameter | Type     | Description                       |
-| :-------- | :------- | :-------------------------------- |
-| `id`      | `string` | **Required**. Id of item to fetch |
-
-#### add(num1, num2)
-
-Takes two numbers and returns the sum.
-
-
-## Authors
-
-- [@octokatherine](https://www.github.com/HubBla02)
-
-
-## 🛠 Skills
-Javascript, HTML, CSS...
-
-
-## Other Common Github Profile Sections
-👩‍💻 I'm currently working on...
-
-🧠 I'm currently learning...
-
-👯‍♀️ I'm looking to collaborate on...
-
-🤔 I'm looking for help with...
-
-💬 Ask me about...
-
-📫 How to reach me...
-
-😄 Pronouns...
-
-⚡️ Fun fact...
-
-
-## Features
-
-- Light/dark mode toggle
-- Live previews
-- Fullscreen mode
-- Cross platform
 
