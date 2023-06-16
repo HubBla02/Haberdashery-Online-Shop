@@ -25,4 +25,5 @@ Frontend: HTML + CSS
 Database: H2 (which you can simply check on /h2-console, login and password are in the .yml)
 Also: JPA
 
+Little disclaimer: Every picture I have used was free - I have taken them from istock.
 
