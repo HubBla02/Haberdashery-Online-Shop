@@ -19,7 +19,7 @@ You need to go to /admin/showorders to use this option.
 
 Pssst... I have also created a simple /error page, you can check at /error there or simply go to /anythingbesideslinksabove to check it out!
 
-TECHNOLOGIES I HAVE USED:
+TECHNOLOGIES I HAVE USED (all chosen because of educational purposes):
 Backend: Java 17, Spring Boot 3.1.0 (with Maven)
 Frontend: HTML + CSS
 Database: H2 (which you can simply check on /h2-console, login and password are in the .yml)
